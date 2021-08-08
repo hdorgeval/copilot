@@ -5,7 +5,6 @@
 
 ## Some feedbacks on copilot usage
 
-
 ---
 
 ## 100% match
@@ -84,7 +83,7 @@ Now listen to me dear `copilot` and learn from a real developer :
 
 ![Match08](./snapshots/screenshot-03g.png)
 
-Houra ! Now the above test is green !!! 
+Houra ! Now the above test is green !!!
 
 Let's try another test dear `copilot` just to show that you and I are the best pair:
 
@@ -106,8 +105,8 @@ Above test, still not green, but estimated date is now `2030-08-13` which is ver
 
 In some situation, `copilot` might drive you in the wrong direction without you noticing that at the end your code is buggy.
 
-Always ensure you have a good testing strategy when using `copilot`. 
+Always ensure you have a good testing strategy when using `copilot`.
 
-TDD coding would the recommended way to pair with `copilot`; 
+TDD coding should be the recommended way to pair with `copilot`.
 
 ---
