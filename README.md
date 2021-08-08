@@ -74,12 +74,13 @@ And I have achieved 50% of it as of now (2021-08-08)
 Then the estimated end date should be 2023-08-08
 ```
 
-Hold on! The test is RED !!! The estimated date is `2020-11-19` !
-What's wrong ? 
+Hold on! The test is RED !!! The computed estimated end date is `2020-11-19` : my project is about to finish in the past !
 
-Ah ah, I should add the remaining time not to the start date but to the `now` date instead. 
+What's wrong ?
 
-Now listen to me dear `copilot` and learn from a real developer : 
+Ah, ah, I should add the remaining time not to the start date but to the `now` date instead.
+
+Now listen to me dear `copilot` and learn from a real developer :
 
 ![Match08](./snapshots/screenshot-03g.png)
 
@@ -93,7 +94,7 @@ And I have achieved 10% of it as of now (2021-08-08)
 Then the estimated end date should be 2030-08-08
 ```
 
-Hey! W... T..... F...., test is RED !!! The estimated date is `2022-07-03`
+Hey ! W... T..... F...., test is RED !!! The estimated date is `2022-07-03`.
 
 Hum, after doing some math on a small piece of paper, I realized that the code should be :
 
