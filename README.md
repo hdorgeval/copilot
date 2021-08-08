@@ -1,7 +1,7 @@
 # Copilot
 
 ![copilot](./snapshots/copilot-01.png)
-
+[With GitHub Copilot, get suggestions for whole lines or entire functions right inside your editor.](https://copilot.github.com/)
 ## Some feedbacks on copilot usage
 
 
