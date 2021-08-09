@@ -111,3 +111,15 @@ Always ensure you have a good testing strategy when using `copilot`.
 TDD coding should be the recommended way to pair with `copilot`.
 
 ---
+
+## 100% match
+
+I just started to write this function name and signature : 
+
+`function isJson(content: string): boolean`
+
+and immediate feedback from my fellow pair-programmer:
+
+![match](./snapshots/screenshot-04.png)
+
+---
