@@ -118,7 +118,7 @@ I just started to write this function name and signature :
 
 `function isJson(content: string): boolean`
 
-and immediate feedback from my fellow pair-programmer:
+and immediate feedback from my fellow pair-programmer (you are my friend again):
 
 ![match](./snapshots/screenshot-04.png)
 
