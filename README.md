@@ -60,7 +60,7 @@ But... wait, I have red squiggles in my code and could not get rid of it! How is
 
 Go back to googling (Oh yes I am really stupid) and found it: `copilot` think I am a JavaScript coder, but I am writing my code in Typescript!
 
-Ok dear pair-programer `copilot`, let me pilot now to polish the final code:
+> Ok dear pair-programer `copilot`, let me pilot now to polish the final code:
 
 ![Match07](./snapshots/screenshot-03f.png)
 
@@ -80,13 +80,13 @@ What's wrong ?
 
 Ah, ah, I should add the remaining time not to the start date but to the `now` date instead.
 
-Now listen to me dear `copilot` and learn from a real developer :
+> Now listen to me dear `copilot` and learn from a real developer :
 
 ![Match08](./snapshots/screenshot-03g.png)
 
 Houra ! Now the above test is green !!!
 
-Let's try another test dear `copilot` just to show that you and I are the best pair:
+> Let's try another test dear `copilot` just to show that you and I are the best pair:
 
 ```gherkin
 Given I started my Github project on 2020-08-08
@@ -121,5 +121,34 @@ I just started to write this function name and signature :
 and immediate feedback from my fellow pair-programmer (you are my friend again):
 
 ![match](./snapshots/screenshot-04.png)
+
+---
+
+## 100% match
+
+I was in the middle of writing a typescript code generator:
+
+```ts
+const dataFileName = `${targetFolderName}.json`;
+const dataFilePath = path.join(targetSubDirectory, dataFileName);
+writeFileSync(dataFilePath, JSON.stringify(missingMock.response, null, 2));
+const mockSourceCode = generateMockCodeOf(missingMock, dataFileName);
+```
+
+The `mockSourceCode` is a string that represent typescript source code that is supposed to import as a first step the JSON file `dataFileName`:
+
+```ts
+import response from './${dataFileName}';
+```
+
+In my mind the next code line was to write the content of `mockSourceCode` to a typescript file.
+
+When I was about to type my code, suddenly my fellow pair-programmer, told me : 
+
+> Hey man, it's too late for you, go to sleep and let me finish the job :
+
+![match](./snapshots/screenshot-05.png)
+
+> Hey my fellow `copilot`, are you reading in my mind ???
 
 ---
